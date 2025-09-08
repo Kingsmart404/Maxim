@@ -1,0 +1,124 @@
+@media(max-width:760px){
+    .container {
+    
+            padding: 0 1em;
+        
+    }
+    nav{
+        justify-content:space-between;
+        height:auto;
+    }
+    .nav_menu_list{
+        flex-direction: column;
+        color:#141421;
+        background-color: aliceblue;
+        width: 90%;
+        height: 60vh;
+        text-align: center;
+        gap :2em;
+        position: absolute;
+        top: 3em;
+        left: 1em;
+        display: none;
+        padding-bottom: 24em;
+        font-weight: bolder;
+        border-radius: 2em;
+        font-size: 1rem;
+        
+       
+        
+
+    }
+    .nav_menu_list > a{
+        font-size: 2.5em;
+        position: relative;
+        top: 5em;
+    }
+.hero-details h1{
+    font-size:1.5rem;
+    max-width: 100%;
+
+}
+.hero-details p{
+    font-size: 0.9rem;
+    max-width: 100%;
+}
+
+    .nav_menu_list.show{
+        display: flex;
+    }
+   .toggle_menu{
+        display: block;
+        color: white;
+        cursor: pointer;
+        font-size: 2rem;
+
+    }
+    .grid-2{
+        grid-template-columns:1fr ;
+        gap:8em;
+        position: relative;
+        bottom: 8em;
+
+    }
+    
+    
+.Rectangle  img{
+    display: none;
+}
+
+.hero{
+    max-width: none;
+    height: auto;
+    padding:4em  0 2em;
+    text-align: center;
+    
+    
+}
+.retangle{
+    position: relative;
+    bottom: 8em;
+    align-items: center;
+}
+   .Cart{
+    margin: auto;
+    width: 95%;
+    
+
+    
+   }
+
+.details{
+    justify-content: center;
+    flex-direction: column;
+    gap:2em;
+    margin:auto;
+    position: relative;
+    bottom: 15em;
+   
+}
+.btn--cyan{
+    font-size: smaller;
+}
+
+.range-box{
+   position: absolute;
+   bottom: 8em;
+   
+}
+   .peble{
+    padding-right: auto;
+text-align: center;
+   
+    
+   }
+  .peble a{
+   position: relative;
+   top: 2em;
+  }
+  
+    footer{
+        position: relative;
+        top:35em;
+    }
+}
