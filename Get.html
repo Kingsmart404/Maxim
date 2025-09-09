@@ -11,7 +11,7 @@
   <h2>
     Get in on the ground floor
   </h2>
-  <p style="width:15vw; margin: auto;padding-bottom: 3em;">Please input the amount you would like to invest</p>
+  <p class="please" style="width:35vw; margin: auto;padding-bottom: 3em;">Please input the amount you would like to invest</p>
     <div class="get2 ">
       <p>what you invest <i class="bi bi-coin"></i></p>
       <i class="bi bi-arrow-left-right"></i>
@@ -24,13 +24,20 @@
   </div>  
   
   <style>
+
+    body{
+      background-color: black;
+    }
   .Get{
-    width: 100vw;
+    width: 50vw;
     height: auto;
-    background-color:black;
+   
+    background-color:rgba(128, 128, 128, 0.145);
     Color: white;
     margin: auto;
     border-radius: 1em;
+    position: relative;
+    top: 8em;
   }
   .Get h2{
     Text-align: Center;
@@ -38,6 +45,7 @@
     font-weight: bolder;
     background-color: #9999;
     padding: 1em 0em 1em 0em;
+    border-radius: 0.5em;
    
   }
   .Get p{
@@ -67,10 +75,12 @@
    i{
     padding-left: 1em;
     color: aliceblue;
+    margin: auto;
   }
   .invest{
    
    text-align: center;
+   padding-bottom: 2em;
   }
 
   a {
@@ -87,17 +97,22 @@ text-align: center;
   }
  @media (max-width:760px){
   container{
-    padding:0em 1em;
+    padding:0em 1em  ;
   }
 .Get{
     width: 100vw;
     height: 100vh;
+  position: absolute;
+  margin: auto;
+  bottom: 10em;
   }
   .get2{
     display: flex;
    flex-direction: column; 
    gap :3em;
   }
+  
+  
  }
   </style>
 </body>

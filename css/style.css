@@ -145,8 +145,8 @@ position: relative;
     height: 150px;
     background-color:#242133 ;
     border-radius: 1em;
-    top: 2em;
-    right: 0.5em;
+    top: 4em;
+    right: 5em;
     
 
 }
@@ -235,6 +235,7 @@ position: relative;
   padding: 1em 3em 1em 3em;
  top:1em;
  justify-content: center;
+ 
    
 }
 

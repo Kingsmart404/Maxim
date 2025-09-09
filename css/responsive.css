@@ -2,6 +2,7 @@
     .container {
     
             padding: 0 1em;
+            
         
     }
     nav{
@@ -13,14 +14,14 @@
         color:#141421;
         background-color: aliceblue;
         width: 90%;
-        height: 60vh;
+        height: 50vh;
         text-align: center;
         gap :2em;
         position: absolute;
         top: 3em;
         left: 1em;
         display: none;
-        padding-bottom: 24em;
+        padding-bottom: 15em;
         font-weight: bolder;
         border-radius: 2em;
         font-size: 1rem;
@@ -52,6 +53,7 @@
         color: white;
         cursor: pointer;
         font-size: 2rem;
+        margin: auto;
 
     }
     .grid-2{
@@ -79,6 +81,7 @@
     position: relative;
     bottom: 8em;
     align-items: center;
+    left: 7em;
 }
    .Cart{
     margin: auto;
@@ -107,18 +110,20 @@
    
 }
    .peble{
-    padding-right: auto;
+   padding-right: 3em;
 text-align: center;
+
    
     
    }
   .peble a{
    position: relative;
    top: 2em;
+   right: 2em;
   }
   
     footer{
         position: relative;
-        top:35em;
+        top:25em;
     }
 }
